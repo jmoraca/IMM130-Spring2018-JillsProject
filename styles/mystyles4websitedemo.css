@@ -6,6 +6,7 @@ a#image2change  {
     height:225px;
     background-image: url(../images/hover-image01.png);
     display: block;
+    color: transparent;
 }
 
 #image2change:hover{
