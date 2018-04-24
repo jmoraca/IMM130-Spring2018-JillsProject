@@ -2,6 +2,28 @@
 <html>
     
     <head>
+        <style>
+        @keyframes example {
+	0%   {background-color: red;}
+	25%  {background-color: yellow;}
+	50%  {background-color: blue;}
+	100% {background-color: green;}
+}
+            
+div {
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	animation-name: example;
+	animation-duration: 4s;
+    animation-delay: 6s; /* Don’t start playing right away*/
+    animation-iteration-count: 4; /* Play 4 times*/
+}
+
+            
+            
+      
+        </style>
         <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-70073850-3"></script>
 <script>
@@ -23,6 +45,19 @@
     
     <body>
         <h1>Various Demos for IMM130</h1>
+        
+        <h2>This is Twitter</h2>
+      <a class="twitter-timeline" href="https://twitter.com/PrincetonWDS?ref_src=twsrc%5Etfw">Tweets by PrincetonWDS</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        
+        
+        <h2>Animate This</h2>
+        <div></div>
+        <div></div>
+        
+        
+        
+        
+        
             <h2>Image changes on hover</h2>
                 <a id="image2change">test </a>
         
@@ -47,9 +82,21 @@
 <gcse:search></gcse:search>
         
         <h2>This is an SVG</h2>
-        <svg width="100" height="100">
-  <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<path fill="#5ABA47" stroke="#000000" stroke-width="4" stroke-miterlimit="10" d="M199,239.7c-44.9,26.1-66.7,84.1-58,113
+	s82.6,69.6,101.4,78.3s37.7-4.7,29-35s-14.5-41.8,10.1-41.8c24.6,0,55.1-4.3,53.6-42c-1.4-37.7,11.6-18.8-18.8-47.8
+	s-40.6-108.7-71-69.6s-58-11.6-30.4,39.1S199,239.7,199,239.7z"/>
 </svg>
+
+<h2>Testing Google Search</h2>
+        <p>Hoping these sites get crawled:
+        <a href="https://bdunchus.github.io/website/">https://bdunchus.github.io/website/</a>
+            <a href="https://thomasgiulianelli.github.io/BluBarWebsite/">https://thomasgiulianelli.github.io/BluBarWebsite/</a>
+        </p>
+
+
+
         
         
         <script src="jills-script.js"></script>
